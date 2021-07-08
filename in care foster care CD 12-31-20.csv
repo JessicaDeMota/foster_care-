@@ -1,0 +1,77 @@
+BX03 Morrisania/Crotona,213
+BX04 Highbridge/Concourse,186
+BX05 Fordham/University Heights,250
+BX06 Belmont/East Tremont,172
+BX07 Kingsbridge Heights/Bedford Pk,170
+BX08 Riverdale/Fieldstone,54
+BX09 Parkchester/Soundview,287
+BX10 Throgs Neck/Co-op City,129
+BX11 Morris Park/Bronxdale,122
+BX12 Williamsbridge/Baychester,377
+        BXUnknown CD,13
+        BRONX TOTAL,"2,282"
+BROOKLYN,
+BK01 Greenpoint/Williamsburg,78
+BK02 Fort Greene/Brooklyn Heights,80
+BK03 Bedford Stuyvesant,214
+BK04 Bushwick,102
+BK05 East New York/Starrett City,356
+BK06 Park Slope/Carroll Gardens,57
+BK07 Sunset Park,23
+BK08 Crown Heights,123
+BK09 South Crown Heights/Prospect,60
+BK10 Bay Ridge/Dyker Heights,31
+BK11 Bensonhurst,28
+BK12 Borough Park,8
+BK13 Coney Island,68
+BK14 Flatbush/Midwood,73
+BK15 Sheepshead Bay,48
+BK16 Brownsville,224
+BK17 East Flatbush,134
+BK18 Flatlands/Canarsie,208
+        BKUnknown CD,7
+        BROOKLYN TOTAL,"1,922"
+MANHATTAN,
+MN01 Financial District,3
+MN02 Greenwich Village/Soho,1
+MN03 Lower East Side/Chinatown,88
+MN04 Clinton/Chelsea,20
+MN05 Midtown,3
+MN06 Stuyvesant Town/Turtle Bay,98
+MN07 Upper West Side,50
+MN08 Upper East Side,17
+MN09 Morningside Height./Hamilton,83
+MN10 Central Harlem,214
+MN11 East Harlem,173
+MN12 Washington Heights/Inwood,100
+        MNUnknown CD,15
+        MANHATTAN TOTAL,865
+QUEENS,
+QN01 Astoria,58
+QN02 Woodside/Sunnyside,13
+QN03 Jackson Heights,46
+QN04 Elmhurst/Corona,26
+QN05 Ridgewood/Maspeth,53
+QN06 Rego Park/Forest Hills,14
+QN07 Flushing/Whitestone,29
+QN08 Hillcrest/Fresh Meadows,56
+QN09 Ozone Park/Woodhaven,60
+QN10 South. Ozone Park/Howard Beac,75
+QN11 Bayside/Little Neck,26
+QN12 Jamaica/Hollis,414
+QN13 Queens Village,193
+QN14 Rockaway/Broad Channel,176
+         QNUnknown CD,6
+         QUEENS TOTAL,"1,245"
+STATEN ISLAND,
+S101 Saint George/Stapleton,286
+S102 South Beach/Willowbrook,73
+S103 Tottenville/Great Mils,54
+        SUnknown CD,1
+        STATEN ISLAND TOTAL,414
+Outside of NYC/Unknown,"1,059"
+NYC Total,"7,787"
+,
+*Includes children in 24 hour care only. Excludes children in Close to Home Placements.,
+Prepared  by ACS/DPPM/ORA,
+Data Source: CCRS,

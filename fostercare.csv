@@ -1,0 +1,61 @@
+Placement,In Care,Origin Id,Borough
+Morrisania/Crotona,213,BX03,Bronx
+Highbridge/Concourse,186,BX04,Bronx
+Fordham/University Heights,250,BX05,Bronx
+Belmont/East Tremont,172,BX06,Bronx
+Kingsbridge Heights/Bedford Pk,170,BX07,Bronx
+Riverdale/Fieldstone,54,BX08,Bronx
+Parkchester/Soundview,287,BX09,Bronx
+Throgs Neck/Co-op City,129,BX10,Bronx
+Morris Park/Bronxdale,122,BX11,Bronx
+Williamsbridge/Baychester,377,BX12,Bronx
+       BXUnknown CD,13,,Bronx
+Greenpoint/Williamsburg,78,BK01,Brooklyn
+Fort Greene/Brooklyn Heights,80,BK02,Brooklyn
+Bedford Stuyvesant,214,BK03,Brooklyn
+Bushwick,102,BK04,Brooklyn
+East New York/Starrett City,356,BK05,Brooklyn
+Park Slope/Carroll Gardens,57,BK06,Brooklyn
+Sunset Park,23,BK07,Brooklyn
+Crown Heights,123,BK08,Brooklyn
+South Crown Heights/Prospect,60,BK09,Brooklyn
+Bay Ridge/Dyker Heights,31,BK10,Brooklyn
+Bensonhurst,28,BK11,Brooklyn
+Borough Park,8,BK12,Brooklyn
+Coney Island,68,BK13,Brooklyn
+Flatbush/Midwood,73,BK14,Brooklyn
+Sheepshead Bay,48,BK15,Brooklyn
+Brownsville,224,BK16,Brooklyn
+East Flatbush,134,BK17,Brooklyn
+Flatlands/Canarsie,208,BK18,Brooklyn
+       BKUnknown CD,7,,Brooklyn
+Financial District,3,MN01,Manhattan
+Greenwich Village/Soho,1,MN02,Manhattan
+Lower East Side/Chinatown,88,MN03,Manhattan
+Clinton/Chelsea,20,MN04,Manhattan
+Midtown,3,MN05,Manhattan
+Stuyvesant Town/Turtle Bay,98,MN06,Manhattan
+Upper West Side,50,MN07,Manhattan
+Upper East Side,17,MN08,Manhattan
+Morningside Height./Hamilton,83,MN09,Manhattan
+Central Harlem,214,MN10,Manhattan
+East Harlem,173,MN11,Manhattan
+Washington Heights/Inwood,100,MN12,Manhattan
+       MNUnknown CD,15,,Manhattan
+Astoria,58,QN01,Queens
+Woodside/Sunnyside,13,QN02,Queens
+Jackson Heights,46,QN03,Queens
+Elmhurst/Corona,26,QN04,Queens
+Ridgewood/Maspeth,53,QN05,Queens
+Hillcrest/Fresh Meadows,56,QN08,Queens
+Ozone Park/Woodhaven,60,QN09,Queens
+South. Ozone Park/Howard Beac,75,QN10,Queens
+Bayside/Little Neck,26,QN11,Queens
+Jamaica/Hollis,414,QN12,Queens
+Queens Village,193,QN13,Queens
+Rockaway/Broad Channel,176,QN14,Queens
+        QNUnknown CD,6,,Queens
+Saint George/Stapleton,286,S101,Staten Island
+South Beach/Willowbrook,73,S102,Staten Island
+Tottenville/Great Mils,54,S103,Staten Island
+       SUnknown CD,1,,Staten Island

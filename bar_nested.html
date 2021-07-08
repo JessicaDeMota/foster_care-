@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.0.min.js" integrity="sha384-HjagQp6T0/7bxYTAXbLotF1MLAGWmhkY5siA1Gc/pcEgvgRPtMsRn0gQtMwGKiw1" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="ed40221c-37f2-4605-a992-f2d8a54cbaee" data-root-id="1158"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1271">
+          {"8b33fac6-ebc7-467e-9a43-416332012395":{"defs":[{"extends":null,"module":null,"name":"DataModel","overrides":[],"properties":[]}],"roots":{"references":[{"attributes":{},"id":"1188","type":"Selection"},{"attributes":{"factors":[["Female","Total"],["Female","In High School"],["Male","Total"],["Male","In High School"]],"range_padding":0.1},"id":"1157","type":"FactorRange"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"1177","type":"VBar"},{"attributes":{"axis":{"id":"1171"},"dimension":1,"ticker":null},"id":"1174","type":"Grid"},{"attributes":{"start":0},"id":"1162","type":"DataRange1d"},{"attributes":{"formatter":{"id":"1187"},"major_label_policy":{"id":"1185"},"ticker":{"id":"1172"}},"id":"1171","type":"LinearAxis"},{"attributes":{},"id":"1185","type":"AllLabels"},{"attributes":{},"id":"1172","type":"BasicTicker"},{"attributes":{"formatter":{"id":"1184"},"major_label_orientation":1,"major_label_policy":{"id":"1182"},"ticker":{"id":"1169"}},"id":"1168","type":"CategoricalAxis"},{"attributes":{"active_multi":null},"id":"1175","type":"Toolbar"},{"attributes":{},"id":"1184","type":"CategoricalTickFormatter"},{"attributes":{"below":[{"id":"1168"}],"center":[{"id":"1170"},{"id":"1174"}],"height":350,"left":[{"id":"1171"}],"renderers":[{"id":"1179"}],"title":{"id":"1159"},"toolbar":{"id":"1175"},"toolbar_location":null,"x_range":{"id":"1157"},"x_scale":{"id":"1164"},"y_range":{"id":"1162"},"y_scale":{"id":"1166"}},"id":"1158","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1189","type":"UnionRenderers"},{"attributes":{"data":{"counts":[3839,1290,3768,1018],"x":[["Female","Total"],["Female","In High School"],["Male","Total"],["Male","In High School"]]},"selected":{"id":"1188"},"selection_policy":{"id":"1189"}},"id":"1156","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"1156"},"glyph":{"id":"1177"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1178"},"view":{"id":"1180"}},"id":"1179","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"1178","type":"VBar"},{"attributes":{},"id":"1187","type":"BasicTickFormatter"},{"attributes":{},"id":"1182","type":"AllLabels"},{"attributes":{"text":"Enrollment by Gender"},"id":"1159","type":"Title"},{"attributes":{},"id":"1166","type":"LinearScale"},{"attributes":{"axis":{"id":"1168"},"grid_line_color":null,"ticker":null},"id":"1170","type":"Grid"},{"attributes":{},"id":"1164","type":"CategoricalScale"},{"attributes":{},"id":"1169","type":"CategoricalTicker"},{"attributes":{"source":{"id":"1156"}},"id":"1180","type":"CDSView"}],"root_ids":["1158"]},"title":"Bokeh Application","version":"2.3.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1271').textContent;
+                  var render_items = [{"docid":"8b33fac6-ebc7-467e-9a43-416332012395","root_ids":["1158"],"roots":{"1158":"ed40221c-37f2-4605-a992-f2d8a54cbaee"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.0.min.js" integrity="sha384-HjagQp6T0/7bxYTAXbLotF1MLAGWmhkY5siA1Gc/pcEgvgRPtMsRn0gQtMwGKiw1" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="1a06d66b-a23d-44aa-9ef9-71c0b6e9ad06" data-root-id="2038"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2208">
+          {"d399b541-2269-49b6-8586-671518b7a190":{"defs":[{"extends":null,"module":null,"name":"DataModel","overrides":[],"properties":[]}],"roots":{"references":[{"attributes":{"bottom":{"expr":{"id":"2059"}},"fill_color":{"value":"#c9d9d3"},"line_color":{"value":"#c9d9d3"},"top":{"expr":{"id":"2060"}},"width":{"value":0.9},"x":{"field":"Race"}},"id":"2065","type":"VBar"},{"attributes":{"data_source":{"id":"2063"},"glyph":{"id":"2065"},"hover_glyph":null,"muted_glyph":null,"name":"Total","nonselection_glyph":{"id":"2066"},"view":{"id":"2068"}},"id":"2067","type":"GlyphRenderer"},{"attributes":{"source":{"id":"2063"}},"id":"2068","type":"CDSView"},{"attributes":{"text":"Race Per Enrollement Year"},"id":"2039","type":"Title"},{"attributes":{},"id":"2050","type":"CategoricalTicker"},{"attributes":{"active_multi":null,"tools":[{"id":"2056"}]},"id":"2057","type":"Toolbar"},{"attributes":{"callback":null,"tooltips":"$name @Race: @$name"},"id":"2056","type":"HoverTool"},{"attributes":{},"id":"2095","type":"UnionRenderers"},{"attributes":{},"id":"2096","type":"Selection"},{"attributes":{"formatter":{"id":"2075"},"major_label_policy":{"id":"2074"},"minor_tick_line_color":null,"ticker":{"id":"2053"}},"id":"2052","type":"LinearAxis"},{"attributes":{"data_source":{"id":"2080"},"glyph":{"id":"2082"},"hover_glyph":null,"muted_glyph":null,"name":"In High School","nonselection_glyph":{"id":"2083"},"view":{"id":"2085"}},"id":"2084","type":"GlyphRenderer"},{"attributes":{"bottom":{"expr":{"id":"2061"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#718dbf"},"line_alpha":{"value":0.1},"line_color":{"value":"#718dbf"},"top":{"expr":{"id":"2062"}},"width":{"value":0.9},"x":{"field":"Race"}},"id":"2083","type":"VBar"},{"attributes":{"fields":["Total","In High School"]},"id":"2062","type":"Stack"},{"attributes":{"label":{"value":"In High School"},"renderers":[{"id":"2084"}]},"id":"2097","type":"LegendItem"},{"attributes":{"start":0},"id":"2043","type":"DataRange1d"},{"attributes":{},"id":"2074","type":"AllLabels"},{"attributes":{},"id":"2072","type":"CategoricalTickFormatter"},{"attributes":{},"id":"2053","type":"BasicTicker"},{"attributes":{"fields":[]},"id":"2059","type":"Stack"},{"attributes":{},"id":"2075","type":"BasicTickFormatter"},{"attributes":{"axis":{"id":"2052"},"dimension":1,"ticker":null},"id":"2055","type":"Grid"},{"attributes":{"data":{"In High School":[1223,832,123,78,52],"Race":["African American","Latinx","White","Asian","Other/Unknown"],"Total":[3915,2639,498,193,362]},"selected":{"id":"2096"},"selection_policy":{"id":"2095"}},"id":"2080","type":"ColumnDataSource"},{"attributes":{"axis":{"id":"2049"},"grid_line_color":null,"ticker":null},"id":"2051","type":"Grid"},{"attributes":{"below":[{"id":"2049"}],"center":[{"id":"2051"},{"id":"2055"},{"id":"2078"}],"left":[{"id":"2052"}],"outline_line_color":null,"renderers":[{"id":"2067"},{"id":"2084"}],"title":{"id":"2039"},"toolbar":{"id":"2057"},"toolbar_location":null,"x_range":{"id":"2041"},"x_scale":{"id":"2045"},"y_range":{"id":"2043"},"y_scale":{"id":"2047"}},"id":"2038","subtype":"Figure","type":"Plot"},{"attributes":{"items":[{"id":"2079"},{"id":"2097"}],"location":"top_left","orientation":"horizontal"},"id":"2078","type":"Legend"},{"attributes":{"label":{"value":"Total"},"renderers":[{"id":"2067"}]},"id":"2079","type":"LegendItem"},{"attributes":{"bottom":{"expr":{"id":"2059"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#c9d9d3"},"line_alpha":{"value":0.1},"line_color":{"value":"#c9d9d3"},"top":{"expr":{"id":"2060"}},"width":{"value":0.9},"x":{"field":"Race"}},"id":"2066","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"2061"}},"fill_color":{"value":"#718dbf"},"line_color":{"value":"#718dbf"},"top":{"expr":{"id":"2062"}},"width":{"value":0.9},"x":{"field":"Race"}},"id":"2082","type":"VBar"},{"attributes":{"formatter":{"id":"2072"},"major_label_policy":{"id":"2071"},"minor_tick_line_color":null,"ticker":{"id":"2050"}},"id":"2049","type":"CategoricalAxis"},{"attributes":{},"id":"2076","type":"UnionRenderers"},{"attributes":{},"id":"2071","type":"AllLabels"},{"attributes":{},"id":"2047","type":"LinearScale"},{"attributes":{"fields":["Total"]},"id":"2060","type":"Stack"},{"attributes":{"factors":["African American","Latinx","White","Asian","Other/Unknown"],"range_padding":0.1},"id":"2041","type":"FactorRange"},{"attributes":{"source":{"id":"2080"}},"id":"2085","type":"CDSView"},{"attributes":{"fields":["Total"]},"id":"2061","type":"Stack"},{"attributes":{},"id":"2077","type":"Selection"},{"attributes":{},"id":"2045","type":"CategoricalScale"},{"attributes":{"data":{"In High School":[1223,832,123,78,52],"Race":["African American","Latinx","White","Asian","Other/Unknown"],"Total":[3915,2639,498,193,362]},"selected":{"id":"2077"},"selection_policy":{"id":"2076"}},"id":"2063","type":"ColumnDataSource"}],"root_ids":["2038"]},"title":"Bokeh Application","version":"2.3.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2208').textContent;
+                  var render_items = [{"docid":"d399b541-2269-49b6-8586-671518b7a190","root_ids":["2038"],"roots":{"2038":"1a06d66b-a23d-44aa-9ef9-71c0b6e9ad06"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.0.min.js" integrity="sha384-HjagQp6T0/7bxYTAXbLotF1MLAGWmhkY5siA1Gc/pcEgvgRPtMsRn0gQtMwGKiw1" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="522e9227-b332-400c-bbfb-765174787b1b" data-root-id="2200"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2342">
+          {"f996ea50-fbe3-4ade-894a-08b6287a7898":{"defs":[{"extends":null,"module":null,"name":"DataModel","overrides":[],"properties":[]}],"roots":{"references":[{"attributes":{},"id":"2233","type":"UnionRenderers"},{"attributes":{},"id":"2231","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"2211"}],"center":[{"id":"2213"},{"id":"2217"},{"id":"2234"}],"height":350,"left":[{"id":"2214"}],"renderers":[{"id":"2223"},{"id":"2240"}],"title":{"id":"2201"},"toolbar":{"id":"2218"},"toolbar_location":null,"x_range":{"id":"2203"},"x_scale":{"id":"2207"},"y_range":{"id":"2205"},"y_scale":{"id":"2209"}},"id":"2200","subtype":"Figure","type":"Plot"},{"attributes":{"data":{"Abuse":["Total","Pecentage"],"New Jersey":["3510","5"],"New York":["1040","36"]},"selected":{"id":"2232"},"selection_policy":{"id":"2233"}},"id":"2199","type":"ColumnDataSource"},{"attributes":{"range":{"id":"2203"}},"id":"2236","type":"Dodge"},{"attributes":{"end":100},"id":"2205","type":"Range1d"},{"attributes":{"formatter":{"id":"2231"},"major_label_policy":{"id":"2230"},"ticker":{"id":"2215"}},"id":"2214","type":"LinearAxis"},{"attributes":{"formatter":{"id":"2228"},"major_label_policy":{"id":"2227"},"ticker":{"id":"2212"}},"id":"2211","type":"CategoricalAxis"},{"attributes":{"axis":{"id":"2214"},"dimension":1,"ticker":null},"id":"2217","type":"Grid"},{"attributes":{},"id":"2215","type":"BasicTicker"},{"attributes":{"active_multi":null},"id":"2218","type":"Toolbar"},{"attributes":{"factors":["Total","Pecentage"],"range_padding":0.1},"id":"2203","type":"FactorRange"},{"attributes":{"text":"Faced Abuse"},"id":"2201","type":"Title"},{"attributes":{"fill_color":{"value":"#718dbf"},"line_color":{"value":"#718dbf"},"top":{"field":"New Jersey"},"width":{"value":0.8},"x":{"field":"Abuse","transform":{"id":"2236"}}},"id":"2238","type":"VBar"},{"attributes":{"fill_color":{"value":"#c9d9d3"},"line_color":{"value":"#c9d9d3"},"top":{"field":"New York"},"width":{"value":0.8},"x":{"field":"Abuse","transform":{"id":"2219"}}},"id":"2221","type":"VBar"},{"attributes":{},"id":"2207","type":"CategoricalScale"},{"attributes":{},"id":"2228","type":"CategoricalTickFormatter"},{"attributes":{"data_source":{"id":"2199"},"glyph":{"id":"2238"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2239"},"view":{"id":"2241"}},"id":"2240","type":"GlyphRenderer"},{"attributes":{},"id":"2227","type":"AllLabels"},{"attributes":{"source":{"id":"2199"}},"id":"2224","type":"CDSView"},{"attributes":{},"id":"2230","type":"AllLabels"},{"attributes":{"label":{"value":"New Jersey"},"renderers":[{"id":"2240"}]},"id":"2251","type":"LegendItem"},{"attributes":{"items":[{"id":"2235"},{"id":"2251"}],"location":"top_left","orientation":"horizontal"},"id":"2234","type":"Legend"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#718dbf"},"line_alpha":{"value":0.1},"line_color":{"value":"#718dbf"},"top":{"field":"New Jersey"},"width":{"value":0.8},"x":{"field":"Abuse","transform":{"id":"2236"}}},"id":"2239","type":"VBar"},{"attributes":{"data_source":{"id":"2199"},"glyph":{"id":"2221"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2222"},"view":{"id":"2224"}},"id":"2223","type":"GlyphRenderer"},{"attributes":{},"id":"2232","type":"Selection"},{"attributes":{"source":{"id":"2199"}},"id":"2241","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#c9d9d3"},"line_alpha":{"value":0.1},"line_color":{"value":"#c9d9d3"},"top":{"field":"New York"},"width":{"value":0.8},"x":{"field":"Abuse","transform":{"id":"2219"}}},"id":"2222","type":"VBar"},{"attributes":{"range":{"id":"2203"},"value":-0.25},"id":"2219","type":"Dodge"},{"attributes":{},"id":"2209","type":"LinearScale"},{"attributes":{"label":{"value":"New York"},"renderers":[{"id":"2223"}]},"id":"2235","type":"LegendItem"},{"attributes":{},"id":"2212","type":"CategoricalTicker"},{"attributes":{"axis":{"id":"2211"},"grid_line_color":null,"ticker":null},"id":"2213","type":"Grid"}],"root_ids":["2200"]},"title":"Bokeh Application","version":"2.3.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2342').textContent;
+                  var render_items = [{"docid":"f996ea50-fbe3-4ade-894a-08b6287a7898","root_ids":["2200"],"roots":{"2200":"522e9227-b332-400c-bbfb-765174787b1b"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
